@@ -1,0 +1,2 @@
+oc new-project image-uploader --display-name='Image Uploader Project'
+oc new-app --image-stream=php --code=https://github.com/rvm8h/image-uploader.git --name=app-cli
